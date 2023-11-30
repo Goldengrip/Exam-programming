@@ -36,6 +36,8 @@ public class BallManager : MonoBehaviour
     {
         IsGrounded = Physics.Raycast(origin: transform.position, direction: Vector3.down, depth, groundLayers);
         Debug.DrawRay(transform.position, Vector3.down * depth, Color.blue, 0, false);
+
+       
     }
     
 
